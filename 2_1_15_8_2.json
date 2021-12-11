@@ -1,0 +1,14 @@
+{ "columns":64,
+ "image":"2_1_15_8_2.png",
+ "imageheight":512,
+ "imagewidth":2048,
+ "margin":0,
+ "name":"2_1_15_8_2",
+ "spacing":0,
+ "tilecount":1024,
+ "tiledversion":"1.7.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.6"
+}
