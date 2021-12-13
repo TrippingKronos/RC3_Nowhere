@@ -1,3 +1,10 @@
+import { bootstrapExtra } from "@workadventure/scripting-api-extra";
+
+// Calling bootstrapExtra will initiliaze all the "custom properties"
+bootstrapExtra();
+
+WA.chat.sendChatMessage('previousForeground trigger', 'Mr Robot');
+
 const {Properties} = require("@workadventure/scripting-api-extra/dist");
 const map = await WA.room.getTiledMap();
 const mapProperties = new Properties(map.properties);
