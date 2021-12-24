@@ -11,10 +11,44 @@ let backgroundNumber: number;
 let foregroundNumber: number;
 //Layer2 speed
 let foregroundSpeed: number;
+
+let orderedBackgroundTileIds : number[] = [];
+
 WA.onInit().then(() => {
     backgroundNumber = 1;
     foregroundNumber = 1;
 })
+
+function randomizeAnimation()
+{
+    let randomTiles : number[] = orderedBackgroundTileIds.sort(() => Math.random() - 0.5);
+    if (randomTiles.length == 64)
+    {
+        for (let i = 1; i < 9; i++) {
+            for (let j = 1; j < 9; j++) {
+                let nextItem = randomTiles.pop();
+                if (nextItem != undefined)
+                {
+                    WA.room.setTiles([{x: i, y: j+1, tile: nextItem, layer: 'Layer1'}]);
+                }
+            }
+        }
+    }
+}
+
+function orderAnimation()
+{
+    let copy = orderedBackgroundTileIds.slice();
+    for (let i = 1; i < 9; i++) {
+        for (let j = 1; j < 9; j++) {
+            let nextItem = copy.pop();
+            if (nextItem != undefined)
+            {
+                WA.room.setTiles([{x: i, y: j+1, tile: nextItem, layer: 'Layer1'}]);
+            }
+        }
+    }
+}
 
 function getFileName() {
     return "https://raw.githubusercontent.com/TrippingKronos/RC3_Nowhere/main/vjapp/" + foregroundNumber + '_' + backgroundNumber + '_' + foregroundSpeed + '.json'; 
@@ -70,6 +104,14 @@ WA.room.onEnterLayer('Xn Layer1 speed normal').subscribe(() => {
 WA.room.onEnterLayer('Xn Layer1 speed low').subscribe(() => {
     foregroundSpeed = 150;
     changeTiles(getFileName(), 'Layer2');
+});
+
+WA.room.onEnterLayer('Xn Layer2 speed high').subscribe(() => {
+    randomizeAnimation();
+});
+
+WA.room.onEnterLayer('Xn Layer2 speed normal').subscribe(() => {
+    orderAnimation();
 });
 
 function changeTiles(fileName: string, layerName: string)
