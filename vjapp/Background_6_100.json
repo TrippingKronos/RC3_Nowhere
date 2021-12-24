@@ -1,0 +1,14 @@
+{ "columns":64,
+ "image":"6_1_60_8_8.png",
+ "imageheight":2048,
+ "imagewidth":2048,
+ "margin":0,
+ "name":"6_1_60_8_8",
+ "spacing":0,
+ "tilecount":4096,
+ "tiledversion":"1.7.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.6"
+}
