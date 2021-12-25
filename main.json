@@ -364,6 +364,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"main",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"#abchillgleis"
+                }],
          "spacing":0,
          "tilecount":64,
          "tileheight":32,
@@ -398,15 +404,6 @@
                          "type":"bool",
                          "value":true
                         }]
-                }, 
-                {
-                 "id":45,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
                 }],
          "tilewidth":32
         }, 
@@ -418,12 +415,99 @@
          "imagewidth":320,
          "margin":0,
          "name":"symb",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"#abchillgleis"
+                }],
          "spacing":0,
          "tilecount":10,
          "tileheight":32,
          "tiles":[
                 {
                  "id":0,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"#abchillgleis"
+                        }]
+                }, 
+                {
+                 "id":1,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"#abchillgleis"
+                        }]
+                }, 
+                {
+                 "id":2,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"#abchillgleis"
+                        }]
+                }, 
+                {
+                 "id":3,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"#abchillgleis"
+                        }]
+                }, 
+                {
+                 "id":4,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"#abchillgleis"
+                        }]
+                }, 
+                {
+                 "id":5,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"#abchillgleis"
+                        }]
+                }, 
+                {
+                 "id":6,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"#abchillgleis"
+                        }]
+                }, 
+                {
+                 "id":7,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"#abchillgleis"
+                        }]
+                }, 
+                {
+                 "id":8,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"#abchillgleis"
+                        }]
+                }, 
+                {
+                 "id":9,
                  "properties":[
                         {
                          "name":"tilesetCopyright",
@@ -1189,6 +1273,12 @@
          "imagewidth":480,
          "margin":0,
          "name":"tunnel_with_tracks",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"#abchillgleis"
+                }],
          "spacing":0,
          "tilecount":90,
          "tileheight":32,
@@ -1212,6 +1302,12 @@
          "imagewidth":64,
          "margin":0,
          "name":"worldExit",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"rC3 exit"
+                }],
          "spacing":0,
          "tilecount":4,
          "tileheight":32,
