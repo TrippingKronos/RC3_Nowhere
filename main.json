@@ -424,97 +424,6 @@
          "spacing":0,
          "tilecount":10,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }, 
-                {
-                 "id":1,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }, 
-                {
-                 "id":2,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }, 
-                {
-                 "id":3,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }, 
-                {
-                 "id":4,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }, 
-                {
-                 "id":5,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }, 
-                {
-                 "id":6,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }, 
-                {
-                 "id":7,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }, 
-                {
-                 "id":8,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }, 
-                {
-                 "id":9,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }],
          "tilewidth":32
         }, 
         {
@@ -1282,16 +1191,6 @@
          "spacing":0,
          "tilecount":90,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"#abchillgleis"
-                        }]
-                }],
          "tilewidth":32
         }, 
         {
