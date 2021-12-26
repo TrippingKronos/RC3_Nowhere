@@ -385,7 +385,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"stream:rc3loungeambient"
+                 "value":"https:\/\/cdn.c3voc.de\/abchillgleis_native.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
