@@ -400,7 +400,17 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"CC-BY c3chill#abchillgleis"
+         "value":"CC-BY c3chill #abchillgleis\nMap by c3chill crew\nLeading Tileset Design Artists Jot & Tillmann\nMental support by gregoa & Jan\nScripting by TrippingKronos\nSupport Tiles by Christoph & Jan\nSupport Tiles & Mapping by erHeller\nhappy hippie sun by Ljuba Podgorny"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Aus den Tiefen der Gehirnwindungen eines 16C3 kristallisierte sich ein von DJs und VJs geschaffener Ruhepol ... Es begann in einem Hackcenter.\n\nc3chill since 21C3 & c3lounge since 30C3"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"c3chill abchillgleis lobby"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
