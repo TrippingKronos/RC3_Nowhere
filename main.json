@@ -1285,7 +1285,7 @@
          "name":"eventphone",
          "properties":[
                 {
-                 "name":"tilesCopyright",
+                 "name":"tilesetCopyright",
                  "type":"string",
                  "value":"CC-BY flederrattie"
                 }],
@@ -1304,7 +1304,7 @@
          "name":"leinwand_tmp",
          "properties":[
                 {
-                 "name":"tilestCopyright",
+                 "name":"tilesetCopyright",
                  "type":"string",
                  "value":"CC-BY flederrattie"
                 }],
