@@ -4021,6 +4021,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"beamer",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"#abchillgleis"
+                }],
          "spacing":0,
          "tilecount":96,
          "tileheight":32,
