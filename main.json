@@ -362,7 +362,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/pretalx.c3voc.de\/rc3-2021-chill-lounge\/schedule\/"
+                 "value":"https:\/\/pretalx.c3voc.de\/rc3-2021-chill-lounge\/schedule\/#"
                 }],
          "type":"tilelayer",
          "visible":true,
