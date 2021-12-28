@@ -344,7 +344,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/pretalx.c3voc.de\/rc3-2021-chill-lounge\/schedule\/"
+                 "value":"https:\/\/rc3.world\/2021\/assembly\/abchillgleis\/"
                 }],
          "type":"tilelayer",
          "visible":true,
