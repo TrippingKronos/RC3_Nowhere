@@ -42,7 +42,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"world:\/\/lobby\/floppy-landfill.json#start_abchillgleis"
+                 "value":"world:\/\/lobby\/lounge-hub.json#start_abchillgleis"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -344,7 +344,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/pretalx.c3voc.de\/rc3-2021-chill-lounge\/schedule\/#"
+                 "value":"https:\/\/pretalx.c3voc.de\/rc3-2021-chill-lounge\/schedule\/"
                 }],
          "type":"tilelayer",
          "visible":true,
