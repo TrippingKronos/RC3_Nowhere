@@ -62,7 +62,6 @@ WA.room.onEnterLayer('Xn Foreground chng visual next').subscribe(() => {
     }
     foregroundNumber++;
     changeTiles(getForegroundFileURL(), 'Foreground');
-    WA.chat.sendChatMessage("VisualNext");
 });
 //Set new background layer speed 60
 WA.room.onEnterLayer('Xn Background speed high').subscribe(() => {
