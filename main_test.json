@@ -94,11 +94,6 @@
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
-                }, 
-                {
-                 "name":"jitsiTriggerMessage",
-                 "type":"string",
-                 "value":"join the crowd"
                 }],
          "type":"tilelayer",
          "visible":true,
