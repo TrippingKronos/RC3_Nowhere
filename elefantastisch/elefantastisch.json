@@ -119,7 +119,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/cdn.c3voc.de\/abchillgleis_native.mp3"
+                 "value":"https:\/\/ice4.somafm.com\/suburbsofgoa-128-mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
