@@ -137,7 +137,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"File1=http:\/\/ice4.somafm.com\/fluid-128-mp3"
+                 "value":"http:\/\/ice4.somafm.com\/fluid-128-mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
