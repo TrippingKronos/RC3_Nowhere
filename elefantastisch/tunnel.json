@@ -59,7 +59,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"elefantastisch2.json"
+                 "value":"rom.json"
                 }],
          "type":"tilelayer",
          "visible":true,
